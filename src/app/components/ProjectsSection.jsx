@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Password Generator",
+    title: "Password Generator - Genrates random password",
     description:
       "NextJs with shadcn & aceternity ui website for password generation",
     image: "/images/projects/2.png",
@@ -27,7 +27,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Queue",
+    title: "Queue - Social media site",
     description: "MERN stack socail media platform",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
@@ -38,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "BooKeeper",
     description:
-      "Fullstack web app build using postgres and ejs for storing and maintaining all your book notes.",
+      "NextJs Fullstack web app build using prisma, postgres, nextAuth",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Airaad/bookeepr-nextjs.git",
@@ -46,7 +46,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "FlexHive",
+    title: "FlexHive - Movie an Tv Show details app",
     description:
       "React Native app build using tmdb api and supabase inspired by imdb ",
     image: "/images/projects/5.png",
@@ -56,7 +56,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Money Tracking app",
+    title: "Expensy - Money Tracking app",
     description: "Budget tracking mobile app with local first storage",
     image: "/images/projects/6.png",
     tag: ["All", "Mobile"],
@@ -90,13 +90,12 @@ const ProjectsSection = () => {
           My Projects
         </h1>
         <div className="w-[40rem] h-40 relative">
-          {/* Gradients */}
+
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
-          {/* Core component */}
           <SparklesCore
             background="transparent"
             minSize={0.4}
@@ -106,7 +105,6 @@ const ProjectsSection = () => {
             particleColor="#FFFFFF"
           />
 
-          {/* Radial Gradient to prevent sharp edges */}
           <div className="absolute inset-0 w-full h-full bg-[#121212] [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         </div>
       </div>
