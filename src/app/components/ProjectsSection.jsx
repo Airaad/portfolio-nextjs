@@ -41,8 +41,8 @@ const projectsData = [
       "Fullstack web app build using postgres and ejs for storing and maintaining all your book notes.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Airaad/book-notes-web-app-ejs-postgress.git",
-    previewUrl: "https://bookeeper.onrender.com",
+    gitUrl: "https://github.com/Airaad/bookeepr-nextjs.git",
+    previewUrl: "https://github.com/Airaad/bookeepr-nextjs.git",
   },
   {
     id: 5,
@@ -60,8 +60,8 @@ const projectsData = [
     description: "Budget tracking mobile app with local first storage",
     image: "/images/projects/6.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Airaad/money-tracker-app-react-native.git",
-    previewUrl: "https://github.com/Airaad/money-tracker-app-react-native.git",
+    gitUrl: "https://github.com/Airaad/expensy-react-native.git",
+    previewUrl: "https://github.com/Airaad/expensy-react-native.git",
   },
 ];
 
